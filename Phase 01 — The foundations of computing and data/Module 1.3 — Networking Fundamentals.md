@@ -204,7 +204,7 @@ A TCP connection is defined by the **4-tuple**:
 
 ```mermaid
 flowchart LR
-    S[socket\(\)] --> B[bind\(\) to IP:port] --> L[listen\(\)] --> A[accept\(\)] --> R[read / write] --> C[close\(\)]
+    S["socket()"] --> B["bind() to IP:port"] --> L["listen()"] --> A["accept()"] --> R["read / write"] --> C["close()"]
 ```
 
 Server: `socket → bind → listen → accept → recv/send → close`.  
@@ -507,4 +507,4 @@ flowchart TD
 
 ---
 
-*End of Module 1.3 notes — happy studying!* 
+*End of Module 1.3 notes — happy studying!* 🎓
